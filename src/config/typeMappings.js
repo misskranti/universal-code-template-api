@@ -48,7 +48,11 @@ const TYPE_MAPPINGS = {
     'List<List<int>>': 'List[List[int]]',
     'Tree<int>': 'Optional[TreeNode]',
     'Tree<string>': 'Optional[TreeNode]',
-    'Graph': 'List[List[int]]'
+    'Graph': 'List[List[int]]',
+    'Tuple<int, int>': 'Tuple[int, int]',
+    'Tuple<int, string>': 'Tuple[int, str]',
+    'Tuple<string, string>': 'Tuple[str, str]',
+    'Tuple[string, int]': 'Tuple[str, int]'
   },
   cpp: {
     'int': 'int',
