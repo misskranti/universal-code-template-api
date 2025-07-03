@@ -24,12 +24,13 @@ A production-ready HTTP API that generates executable code templates for Data St
 # Clone the repository
 git clone https://github.com/misskranti/universal-code-template-api.git
 
+# Navigate to the project directory
 cd universal-code-template-api
 
-Step to switch to that branch:
+# Switch to the feature branch
 git checkout -b feature/two-sum-template-js origin/feature/two-sum-template-js
 
-# Install dependencies
+# Install project dependencies
 npm install
 
 # Start the server
