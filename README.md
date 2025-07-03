@@ -23,7 +23,11 @@ A production-ready HTTP API that generates executable code templates for Data St
 ```bash
 # Clone the repository
 git clone https://github.com/misskranti/universal-code-template-api.git
-cd code-template-api
+
+cd universal-code-template-api
+
+Step to switch to that branch:
+git checkout -b feature/two-sum-template-js origin/feature/two-sum-template-js
 
 # Install dependencies
 npm install
@@ -33,19 +37,6 @@ npm start
 ```
 
 The API will be available at `http://localhost:3000`
-
-### Development Mode
-
-```bash
-# Start with auto-reload
-npm run dev
-
-# Run tests
-npm test
-
-# Run tests with coverage
-npm run test:coverage
-```
 
 ## API Documentation
 
@@ -239,22 +230,6 @@ The API provides detailed error messages for various failure scenarios:
   "error": "Invalid parameter type",
   "details": "Type 'custom_type' is not supported for language 'python'"
 }
-```
-
-## Testing
-
-The project includes comprehensive test coverage for all scenarios:
-
-```bash
-# Run all tests
-npm test
-
-# Run tests in watch mode
-npm run test:watch
-
-# Generate coverage report
-npm run test:coverage
-```
 
 ### Test Scenarios
 
