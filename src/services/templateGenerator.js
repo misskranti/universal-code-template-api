@@ -59,7 +59,7 @@ class TreeNode {
 ${treeNodeClass}
 public class ${className} {
     public ${returnType} ${function_name}(${params}) {
-        // Write your logic here
+       
         ${returnType === 'void' ? '' : 'return null; // TODO: Implement'}
     }
 ${mainMethod}
@@ -100,7 +100,7 @@ class TreeNode:
 ${treeNodeClass}
 class Solution:
     def ${function_name}(self, ${params}) -> ${returnType}:
-        # Write your logic here
+      
         pass
 
 if __name__ == "__main__":
@@ -160,7 +160,7 @@ ${treeNodeStruct}
 class Solution {
 public:
     ${returnType} ${function_name}(${params}) {
-        // Write your logic here
+       
         ${returnType === 'void' ? '' : 'return {}; // TODO: Implement'}
     }
 };
@@ -206,7 +206,7 @@ ${paramDocs}
  * @return {${returnType}}
  */
 var ${function_name} = function(${parameters.map(p => p.name).join(', ')}) {
-    // Write your logic here
+   
     
 };
 
